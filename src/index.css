@@ -12,16 +12,16 @@ body {
   }
 
   .square{
-      color: rgb(56, 109, 56);
+      color: rgb(177, 12, 12);
   }
   
   .description{
-      color: rgb(91, 34, 224);
+      color: rgb(5, 0, 0);
       border-radius: 12px;
-      border: 2px solid #9b10c5
+      border: 2px solid #16b170
   }
   .description:focus{
-      color:rgb(197, 18, 18)
+      color:rgb(36, 18, 197)
   }
 
 

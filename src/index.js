@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import './index.css';
 
 function Square(props) {
@@ -132,7 +132,9 @@ function Square(props) {
   
   // ========================================
   
-  ReactDOM.render(<Game />, document.getElementById("root"));
+  const container = document.getElementById('root');
+  const root = createRoot(container);
+  root.render(<Game tab="home" />);
   
   function calculateWinner(squares) {
     const lines = [
